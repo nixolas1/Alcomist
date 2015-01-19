@@ -1,0 +1,11 @@
+About Us / About Alcomist
+Alcomist is a prosject started by 4 students at the Norwegian University for Science and Technology (NTNU) as an assignment in the course Web Technologies[link:http://www.ntnu.edu/studies/courses/IT2805/2014]. Our assignment was to create a website based on specific criterias, and we wanted to make something we would use ourselves. Beeing students it seemed appropriate our website was in relevance to alcohol consumption. There are many sites that let you calculate your blood alcohol level, however none of the ones we could find allowes for continuing use througout the night - letting the user know of their changing estimated blod alcohol level at any time. We saw this as something we and others could have great use for.
+
+Giving you an estimate througout the night lets the user be more aware of their alcohol influence. This is in no way an accurate way to base decisions on wheter to drive e.g. You can read more about the way we measure and how to contact us, using the navigation bar at the top of the website.
+
+The team consist of:
+Kasper Rynning-Tønnesen
+Nicolas Almgro Tonne
+Marius Meland Bang
+Sondre Johan Widmark
+

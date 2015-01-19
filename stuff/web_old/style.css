@@ -1,0 +1,42 @@
+body {
+    /*font-family: 'Open Sans', Helvetica, sans-serif;*/
+    margin:0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.butt{padding: 0 18px 0 2px;}
+.login{
+    width:200px;
+}
+
+.form-control, .input-group .form-control{
+    /*padding: 15px !important;*/
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+
+.nopadd{
+    padding: 0;
+}
+
+.big{
+    font-size: 25vh;
+   /* color: hsl(0,80%,50%); */x
+    font-weight: bold;
+    text-align: center;
+    line-height: 1em;
+}
+
+.sub{
+    font-size: 10vh;
+}
+
+.infobox{
+    padding-bottom: 50px;
+}

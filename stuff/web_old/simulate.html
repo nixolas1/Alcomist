@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Graphics and animation using HTML5 Canvas</title>
+        <style>
+            #the-canvas { border: 1px dashed gray }   
+        </style>
+        <script>
+            window.onload = function() {
+                
+            }
+            calculatedPercentage = 1
+
+            function simulateOneMinute(){
+                console.log('simulateOneMinute')
+                
+                if ((calculatedPercentage - (0.15/60)) <= 0){
+                    calculatedPercentage = 0
+                } else {
+                    calculatedPercentage -= (0.15/60)
+                } printPercentage()
+            }
+
+            function simulate(seconds){
+                var dissolvedPercent = ((0.15/60)/60)*seconds
+                calculatedPercentage -= dissolvedPercent
+                console.log("SIMULATE("+seconds+")")
+                console.log("calculatedPercentage: " + calculatedPercentage)
+                console.log("dissolvedPercent: "+dissolvedPercent)
+                
+                console.log("new calculatedPercentage: "+calculatedPercentage)
+            }
+
+            simulate(60)
+            simulate(60*60)
+
+
+            
+        </script>
+    </head>
+    <body>
+        <p>asdasd</p>
+    </body>
+</html>

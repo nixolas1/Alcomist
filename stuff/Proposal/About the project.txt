@@ -1,0 +1,7 @@
+About the project:
+Its a site where you have a overview and stats over your alcohol consumption. One register each beverage one consumes and personal information, and you'll get predictions and suggestions on what you should or shouldn't drink.
+
+What multi-media content do you want to include?
+Our site will not require a large amount of multimedia. Most of our design will be done in CSS and needs for multi-media content is mostly limited to simple pictures. We will have a simple colorful design with images beeing graphically designed drawings. The pictures we do need we will draw ourselves.
+
+What type of interactions and dynamic features do you want on your site?

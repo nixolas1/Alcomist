@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Testside</title>
+</head>
+<body>
+	<div id="information">
+		<form id="collect-info">
+			<strong>Weight: </strong>
+			<div id="weightValue">
+				<input name="weight" id="weight" type="number" min="10" max="99" step="1" required>
+			</div>
+			<br>
+			<strong>Gender: </strong>
+			<div id="genderValue">
+				<form id="gender" style="padding-left:15px;"> <!-- required -->
+					<input type="radio" id="checkMale" name="gender" value="male" checked/>
+					<label for="checkMale"> Mann</label><br>
+					<input type="radio" id="checkFemale" name="gender" value="female"/>
+					<label for="checkFemale"> Female </label>
+				</form>
+			</div>
+			<br><br>
+			<input type="button" id="checkWeight" value="Check weight"/>
+			<input type="button" id="checkGender" value="Check gender"/><br>
+		</form>
+	</div>
+	<!--FRA KODEN PÅ NETTSIDEN-->
+	<br><br><br>
+	
+	<select id="unitCounter" class="form-control" name="amount">
+		<option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option>
+	</select>
+	<select id="alcoholUnit" class="form-control" name="type">
+		<option value="0">Øl (5 dl - 4,5%)</option>
+		<option value="1">Øl (3,33 l - 4,5%)</option>
+		<option value="2">Vin (2 dl - 12%)</option>
+		<option value="3">Brennevin (0,4 dl - 20%)</option>
+		<option value="4">Brennevin (0,4 dl - 40%)</option>
+	</select>
+	<button type="submit" id="calculate" name="act" class="btn btn-success" title="Calculate" value="add">
+		<span class="glyphicon glyphicon-plus"></span> Drukket</button>
+
+		<div id="display" style="font-size=40px">
+
+			<!--SLUTT-->
+		</div>
+
+	<br><br>
+	<h1><div class="container big" id ="display-percent"style="color:red;margin">
+		0‰
+	</div></h1>
+	<br><br>
+
+	<div id="history">
+
+	</div>
+
+
+
+		<script src="index.js"></script>
+	</body>
+	</html>

@@ -1,0 +1,32 @@
+body {
+    /*font-family: 'Open Sans', Helvetica, sans-serif;*/
+    margin:0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.butt{padding: 0 18px 0 2px;}
+.login{
+    width:200px;
+    margin-top: 11%;
+}
+
+.form-control{
+    padding: 15px !important;
+}
+
+.nopadd{
+    padding: 0;
+}
+
+.bignigger{
+    font-size: 11vw;
+    color: hsl(0,80%,50%);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15%;
+}

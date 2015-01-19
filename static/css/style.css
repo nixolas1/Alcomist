@@ -1,0 +1,267 @@
+body {
+    /*font-family: 'Open Sans', Helvetica, sans-serif;*/
+    margin:0;
+}
+
+th{
+    font-size: 14px;
+    color:black;
+     padding: 5px 0;
+}
+
+.table{
+    width: 500px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.subtext{
+    font-size: 33px;
+}
+
+.butt{padding: 0 18px 0 2px;}
+
+.login{
+    width:200px;
+}
+
+.glyphicon{
+    padding-right: 10px;
+}
+
+.register-form{
+    width:300px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.form-control, .input-group .form-control{
+    /*padding: 15px !important;*/
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+
+.label{
+    font-weight: 600;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+label{padding-right: 20px;}
+
+.block{
+    display: block;
+}
+
+#welcome-header {
+    color:#900000;
+    font-size: 50px;
+    font-size: 4.2vmax;
+    font-family: 'chunkfiveroman';
+    text-shadow: 2px 2px #C8C8C8;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#welcome-text {
+    margin-top: 6%;
+    color:#303030;
+    font-size: 20px;
+    font-size: 2vmax;
+    font-family: 'chunkfiveroman';
+    text-shadow: 1px 1px #B2B2B2;
+    width: 53%;
+}
+
+#notfound {
+	padding-bottom: 6%;
+    color:#303030;
+    font-size: 20px;
+    font-size: 2vmax;
+    font-family: 'chunkfiveroman';
+    text-shadow: 1px 1px #B2B2B2;
+}
+
+
+
+ul.drinks {
+    padding-left: 0px !important; 
+}
+table ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.drinks li{
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0 1.25% 2.5% 1.25%;
+    /*border: 1px solid #ddd;*/
+    box-shadow: 1px 3px 5px #ddd;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 500px;
+    overflow: hidden;
+    width: 215px;
+    height: 215px;
+}
+
+.drinks li:hover{
+    box-shadow: 0 0 23px #777;
+}
+
+.drinks li:active{
+   transform: rotate(180deg);
+   opacity: 0.8;
+}
+
+.drinks li img{
+   
+    height: 137px;
+    opacity: 0;
+    margin: 0 0 -5px;
+}
+
+
+.drinks li h3, .inner {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: rgba(255,255,255,0.4);
+    text-decoration: none;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border:none;
+    margin-bottom: 0;
+}
+
+ul.rig li h3:hover, .inner:hover, ul.rig li a:hover, .inner a:hover {
+    text-decoration: none;
+}
+
+.nopadd{
+    padding: 0;
+}
+
+.button-img{
+    max-height: 100px;
+    display: block;
+}
+
+.buttonbox{
+    max-width:750px;
+}
+
+.drink-button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.big{
+    font-size: 13em;
+    font-size: 13vw;
+    text-align: center;
+    line-height: 1em;
+    color: hsl(100, 80%, 50%);
+}
+.logo{
+    height: 24px;
+    display: inline;
+    padding: 0 10px 0 0;
+    margin-top: -5px;
+}
+.sub{
+    font-size: 10vh;
+}
+
+.infobox{
+    padding-bottom: 50px;
+}
+
+#time
+{
+    padding-right:30px;
+}
+
+#quantity
+{
+    padding-right:50px;
+}
+
+#drink
+{
+    padding-right:85px;
+}
+
+.sort-history
+{
+	cursor:pointer;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+#inputText3, #inputEmail3, textarea.form-control
+{
+	text-align:left !important;
+	width:100% !important;
+}
+
+.form-horizontal
+{
+	margin:auto;
+	width:50%;
+}
+
+@media (max-width: 768px) { 
+    #welcome-header {
+        font-size: 50px;
+    }
+
+    #welcome-text {
+        font-size: 20px;
+    }
+
+}
+
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive/chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/chunkfive/chunkfive-webfont.woff2') format('woff2'),
+    url('../fonts/chunkfive/chunkfive-webfont.woff') format('woff'),
+    url('../fonts/chunkfive/chunkfive-webfont.ttf') format('truetype'),
+    url('../fonts/chunkfive/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
