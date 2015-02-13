@@ -18,8 +18,8 @@ if(isset($_REQUEST["newuser"])){
 
 $url = explode("/", htmlspecialchars(strtolower($_SERVER["REQUEST_URI"])));
 //hvis man er inne på et subdomene, gå til brukerns side
-if($url[2]!="" && isset($url[2]) && count($url)>1){
-    $page=$url[2];
+if($url[1]!="" && isset($url[1]) && count($url)>=1){
+    $page=$url[1];
 
     if(ctype_alpha($page) && file_exists("php/".$page.".php")){
     	include("php/".$page.".php");
